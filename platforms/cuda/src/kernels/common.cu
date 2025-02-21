@@ -2,7 +2,7 @@
  * This file contains CUDA definitions for the macros and functions needed for the
  * common compute framework.
  */
-
+#define VOLATILE
 #define KERNEL extern "C" __global__
 #define DEVICE __device__
 #define LOCAL __shared__
